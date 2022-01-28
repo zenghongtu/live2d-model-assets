@@ -1,0 +1,55 @@
+{
+    "posted": "Dreamer-Paul",
+    "model": "model.moc",
+    "textures": [
+        "textures/0.png",
+        "textures/1.png",
+        "textures/normal_2.png"
+    ],
+    "layout": {
+        "center_x": 0,
+        "center_y": -0.1,
+        "width": 2
+    },
+    "hit_areas_custom": {
+        "head_x": [-0.35, 0.6],
+        "head_y": [0.19, -0.2],
+        "body_x": [-0.3, -0.25],
+        "body_y": [0.3, -0.9]
+    },
+    "hit_areas": [
+        {"name": "head", "id": "D_REF.PT_HEAD"},
+        {"name": "body", "id": "D_REF.PT_BUST"},
+        {"name": "belly", "id": "D_REF.PT_BELL"}
+    ],
+    "expressions": [
+        {"name": "normal", "file": "expressions/normal.json"},
+        {"name": "happy", "file": "expressions/happy.json"},
+        {"name": "unhappy", "file": "expressions/unhappy.json"},
+        {"name": "kira", "file": "expressions/kira.json"},
+        {"name": "deformed", "file": "expressions/deformed.json"},
+        {"name": "enjoy", "file": "expressions/enjoy.json"}
+    ],
+    "motions": {
+        "idle": [
+            {"file": "motions/idle_00.mtn", "fade_in": 2000, "fade_out": 2000},
+            {"file": "motions/idle_01.mtn", "fade_in": 2000, "fade_out": 2000},
+            {"file": "motions/idle_02.mtn", "fade_in": 2000, "fade_out": 2000}
+        ],
+        "alt_idle": [
+            {"file": "motions/idle_00.mtn", "fade_in": 2000, "fade_out": 2000},
+            {"file": "motions/idle_01.mtn", "fade_in": 2000, "fade_out": 2000},
+            {"file": "motions/idle_02.mtn", "fade_in": 2000, "fade_out": 2000},
+            {"file": "motions/shake.mtn"}
+        ],
+        "tap_body": [
+            {"dialogue": 11, "sound": "voice/001.ogg", "file": "motions/nep_touch_head_1.mtn"},
+            {"dialogue": 13, "sound": "voice/013.ogg", "file": "motions/nep_touch_belly_1.mtn"},
+            {"dialogue": 90, "sound": "voice/101.ogg", "file": "motions/nep_slide_head_2.mtn"},
+            {"dialogue": 93, "sound": "voice/007.ogg", "file": "motions/nep_touch_boobs_1.mtn"},
+            {"dialogue": 94, "sound": "voice/014.ogg", "file": "motions/nep_touch_belly_2.mtn"},
+            {"file": "motions/refuse.mtn"},
+            {"file": "motions/tilt_head.mtn"}
+        ]
+    }
+}

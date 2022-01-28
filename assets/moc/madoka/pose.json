@@ -1,0 +1,18 @@
+{
+	"type":"Live2D Pose",
+	"fade_in":200,
+	"parts_visible":[
+		{
+			"group":[
+				{"id":"PARTS_01_ARM_L_A_00"},
+				{"id":"PARTS_01_ARM_L_B_00"}
+			]
+		},
+		{
+			"group":[
+				{"id":"PARTS_01_ARM_R_A_00"},
+				{"id":"PARTS_01_ARM_R_B_00"}
+			]
+		}
+	]
+}

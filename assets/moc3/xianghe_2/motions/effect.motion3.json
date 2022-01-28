@@ -1,0 +1,52 @@
+{
+  "Version": 3,
+  "Meta": {
+    "Duration": 13.0,
+    "Fps": 60.0,
+    "Loop": true,
+    "AreBeziersRestricted": true,
+    "CurveCount": 2,
+    "TotalSegmentCount": 3,
+    "TotalPointCount": 7,
+    "UserDataCount": 1,
+    "TotalUserDataSize": 0
+  },
+  "Curves": [
+    {
+      "Target": "Parameter",
+      "Id": "baiwutexiao",
+      "Segments": [
+        0,
+        0,
+        1,
+        4.333,
+        2,
+        8.667,
+        4,
+        13,
+        6
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Id": "qiwu",
+      "Segments": [
+        0,
+        0,
+        1,
+        4.333,
+        0.667,
+        8.667,
+        1.333,
+        13,
+        2
+      ]
+    }
+  ],
+  "UserData": [
+    {
+      "Time": 0.0,
+      "Value": ""
+    }
+  ]
+}

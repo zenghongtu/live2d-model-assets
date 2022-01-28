@@ -1,0 +1,60 @@
+{
+    "posted": "Dreamer-Paul",
+    "physics": "physics.json",
+    "pose": "pose.json",
+    "model": "model.moc",
+    "textures": [
+        "textures/texture_00.png"
+    ],
+    "hit_areas_custom": {
+        "head_x": [-0.35, 0.6],
+        "head_y": [0.19, -0.2],
+        "body_x": [-0.3, -0.25],
+        "body_y": [0.3, -0.9]
+    },
+    "expressions": [
+        {
+            "file": "expressions/mtn_ex_010.exp.json", 
+            "name": "mtn_ex_010.exp.json"
+        }, 
+        {
+            "file": "expressions/mtn_ex_011.exp.json", 
+            "name": "mtn_ex_011.exp.json"
+        }, 
+        {
+            "file": "expressions/mtn_ex_020.exp.json", 
+            "name": "mtn_ex_020.exp.json"
+        }, 
+        {
+            "file": "expressions/mtn_ex_030.exp.json", 
+            "name": "mtn_ex_030.exp.json"
+        }, 
+        {
+            "file": "expressions/mtn_ex_040.exp.json", 
+            "name": "mtn_ex_040.exp.json"
+        }, 
+        {
+            "file": "expressions/mtn_ex_041.exp.json", 
+            "name": "mtn_ex_041.exp.json"
+        }, 
+        {
+            "file": "expressions/mtn_ex_051.exp.json", 
+            "name": "mtn_ex_051.exp.json"
+        }, 
+        {
+            "file": "expressions/mtn_ex_060.exp.json", 
+            "name": "mtn_ex_060.exp.json"
+        }
+    ],
+    "motions": {
+        "tap_body": [
+            {"file": "motions/motion_000.mtn", "name": "motion_000"},
+            {"file": "motions/motion_001.mtn", "name": "motion_001"},
+            {"file": "motions/motion_100.mtn", "name": "motion_100"},
+            {"file": "motions/motion_200.mtn", "name": "motion_200"},
+            {"file": "motions/motion_201.mtn", "name": "motion_201"},
+            {"file": "motions/motion_300.mtn", "name": "motion_300"},
+            {"file": "motions/motion_400.mtn", "name": "motion_400"}
+        ]
+    }
+}
