@@ -1,0 +1,24 @@
+{
+  "name": "live2d-model-assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "node ./scripts/gen.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenghongtu/live2d-model-assets.git"
+  },
+  "keywords": [],
+  "author": "zenghongtu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zenghongtu/live2d-model-assets/issues"
+  },
+  "homepage": "https://github.com/zenghongtu/live2d-model-assets#readme",
+  "dependencies": {
+    "globby": "^11"
+  }
+}
