@@ -2,7 +2,12 @@
 
 [PPet: 👻在你的桌面放一个萌妹子，多一点趣味😏~（支持Mac、Win和Linux）](https://github.com/zenghongtu/PPet) 的 Model 源
 
-收集整理自：
+
+## Usage
+
+复制 https://github.com/zenghongtu/live2d-model-assets/blob/master/assets/model.index ，填入 PPet 模型列表中。
+
+## From
 
 -  [xiazeyu/live2d-widget-models: The model library for live2d-widget.js](https://github.com/xiazeyu/live2d-widget-models)
 -  [fghrsh/live2d_api: Live2D 看板娘插件 (https://www.fghrsh.net/post/123.html) 上使用的后端 API](https:/****/github.com/fghrsh/live2d_api) 
